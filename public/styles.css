@@ -1,3 +1,8 @@
+@font-face {
+    font-family: "FinkHeavy";
+    src: url("FinkHeavy.otf") format("opentype");
+}
+
 html {
     box-sizing: border-box;
 }
@@ -11,6 +16,7 @@ body {
     background-size: cover;
     margin: 0;
     padding: 0;
+    font-family: FinkHeavy;
 }
 
 main {
@@ -26,7 +32,7 @@ main .content {
 }
 
 main .content h1 {
-    font-size: 80px;
+    font-size: 85px;
 }
 
 main .content .more-info {
@@ -39,20 +45,27 @@ main .content .more-info {
 
 main .content .more-info h2 {
     align-self: center;
+    margin-bottom: 0;
+    font-size: 30px;
 }
 
 main .content .more-info .links {
     display: flex;
 }
 
+main .content .more-info .links .reddit, main .content .more-info .links .twitter {
+    margin: 15px;
+}
+
+main .content .more-info .links .reddit h3, main .content .more-info .links .twitter h3 {
+    font-size: 20px;
+}
+
 main .content .more-info .links ul {
     list-style: none;
     margin: 0;
     padding: 0;
-}
-
-main .content .more-info .links .reddit, main .content .more-info .links .twitter {
-    margin: 15px;
+    font-size: 18px;
 }
 
 @media only screen and (max-width: 500px) {
