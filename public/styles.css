@@ -18,11 +18,15 @@ main {
 }
 
 main .content {
-    height: 100vh;
+    height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+main .content h1 {
+    font-size: 80px;
 }
 
 main .content .more-info {
