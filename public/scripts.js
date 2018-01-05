@@ -3,5 +3,4 @@ function trackClick(site, community) {
         'event_category': site,
         'event_label': community
     });
-    console.log(site, community);
 };
