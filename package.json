@@ -1,0 +1,30 @@
+{
+  "name": "is-animal-crossing-for-nintendo-switch-out-yet",
+  "version": "1.0.0",
+  "description": "Website to track when Animal Crossing is released for Nintendo Switch",
+  "main": "server.js",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mzrimsek/is-animal-crossing-for-nintendo-switch-out-yet.git"
+  },
+  "keywords": [
+    "animal-crossing",
+    "nintendo-switch"
+  ],
+  "author": "Mike Zrimsek",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mzrimsek/is-animal-crossing-for-nintendo-switch-out-yet/issues"
+  },
+  "homepage": "https://github.com/mzrimsek/is-animal-crossing-for-nintendo-switch-out-yet#readme"
+}
