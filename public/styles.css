@@ -1,0 +1,27 @@
+html {
+    box-sizing: border-box;
+}
+  
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    background: url("background.jpg") no-repeat center center fixed; 
+    background-size: cover;
+}
+
+main {
+    height: 100vh;
+}
+
+main .content {
+    display: flex;
+    height: 100vh;
+
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 120;
+}
