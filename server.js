@@ -8,10 +8,10 @@ const app = express();
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 
-app.use(express.static(path.resolve("./")));
+app.use('/public', express.static(path.join(__dirname, 'public')));
 
 app.get('/', function (req, res) {
-    res.sendFile('index.html');
+    res.sendFile(path.join(__dirname, 'index.html'));
 });
 
 app.listen(port);
