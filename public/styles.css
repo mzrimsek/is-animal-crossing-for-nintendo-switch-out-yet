@@ -59,4 +59,7 @@ main .content .more-info .links .reddit, main .content .more-info .links .twitte
     main .content .more-info .links {
         flex-direction: column;
     }
+    main .content .more-info .links ul {
+        line-height: 150%;
+    }
 }
