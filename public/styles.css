@@ -18,12 +18,41 @@ main {
 }
 
 main .content {
-    display: flex;
     height: 100vh;
-
+    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
 
-    font-size: 120;
+main .content .more-info {
+    display: flex;
+    flex-direction: column;
+    background: rgba(255 , 255, 255, .5);
+    border-radius: 30px;
+    padding: 20px;
+}
+
+main .content .more-info h2 {
+    align-self: center;
+}
+
+main .content .more-info .links {
+    display: flex;
+}
+
+main .content .more-info .links ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+main .content .more-info .links .reddit, main .content .more-info .links .twitter {
+    margin: 15px;
+}
+
+@media only screen and (max-width: 500px) {
+    main .content .more-info .links {
+        flex-direction: column;
+    }
 }
