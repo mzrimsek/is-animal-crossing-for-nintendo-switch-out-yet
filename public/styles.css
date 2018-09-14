@@ -19,6 +19,14 @@ body {
     font-family: FinkHeavy;
 }
 
+a {
+    color: #00aa3b;
+}
+
+a:hover {
+    color: #01842f;
+}
+
 main {
     height: 100vh;
 }
@@ -31,10 +39,22 @@ main .content {
     align-items: center;
 }
 
-main .content h1 {
+main .content .info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+main .content .info h1 {
     font-size: 85px;
     margin-top: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 0px;
+}
+
+main .content .info h2 {
+    font-size: 50px;
+    margin-top: 10px;
 }
 
 main .content .more-info {
@@ -48,7 +68,7 @@ main .content .more-info {
     overflow: hidden;
 }
 
-main .content .more-info h2 {
+main .content .more-info h3 {
     align-self: center;
     margin-bottom: 0;
     font-size: 30px;
@@ -63,7 +83,7 @@ main .content .more-info .links .reddit, main .content .more-info .links .twitte
     margin: 15px;
 }
 
-main .content .more-info .links .reddit h3, main .content .more-info .links .twitter h3 {
+main .content .more-info .links .reddit h4, main .content .more-info .links .twitter h4 {
     font-size: 20px;
 }
 
