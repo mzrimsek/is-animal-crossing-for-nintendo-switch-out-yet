@@ -6,13 +6,13 @@
 html {
     box-sizing: border-box;
 }
-  
+
 *, *:before, *:after {
     box-sizing: inherit;
 }
 
 body {
-    background: url("background.jpg") no-repeat center center fixed; 
+    background: url("background.jpg") no-repeat center center fixed;
     background-size: cover;
     margin: 0;
     padding: 0;
@@ -44,10 +44,13 @@ main .content .info {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 main .content .info h1 {
     font-size: 85px;
+    text-align: center;
     margin-top: 20px;
     margin-bottom: 0px;
 }
@@ -55,12 +58,19 @@ main .content .info h1 {
 main .content .info h2 {
     font-size: 50px;
     margin-top: 10px;
+    margin-bottom: 0px;
+}
+
+main .content .info h3 {
+    font-size: 30px;
+    margin-top: 10px;
+    margin-bottom: 0px;
 }
 
 main .content .more-info {
     display: flex;
     flex-direction: column;
-    background: rgba(255 , 255, 255, .5);
+    background: rgba(255, 255, 255, .5);
     border-radius: 30px;
     padding: 20px;
     margin-bottom: 20px;
@@ -70,7 +80,7 @@ main .content .more-info {
 
 main .content .more-info h3 {
     align-self: center;
-    margin-bottom: 0;
+    margin-bottom: 0px;
     font-size: 30px;
 }
 
@@ -100,13 +110,4 @@ main .content .more-info .isabelle {
     bottom: -30px;
     right: 0px;
     transform: rotate(340deg);
-}
-
-@media only screen and (max-width: 500px) {
-    main .content .more-info .links {
-        flex-direction: column;
-    }
-    main .content .more-info .links ul {
-        line-height: 150%;
-    }
 }
