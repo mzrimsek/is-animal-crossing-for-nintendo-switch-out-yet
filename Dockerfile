@@ -1,4 +1,4 @@
-FROM arm32v7/node:latest
+FROM node:latest
 
 # create app directory
 RUN mkdir -p /usr/src/app
