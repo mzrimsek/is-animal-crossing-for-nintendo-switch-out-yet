@@ -1,0 +1,9 @@
+version: '2'
+
+services:
+  web:
+    image: ghcr.io/mzrimsek/is-animal-crossing-for-nintendo-switch-out-yet:latest
+    container_name: animal_crossing_switch
+    ports:
+      - ${HOST_PORT}:3000
+    restart: unless-stopped
